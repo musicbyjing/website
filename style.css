@@ -1,5 +1,6 @@
 * {
     font-family: 'Space Mono', monospace;
+    scroll-behavior: smooth;
 }
 
 body a:hover {
@@ -11,8 +12,8 @@ body a:hover {
     border-bottom-style: solid;
     border-bottom-color: #cccccc;
     overflow: visible;
-    position: relative;
 }
+
 
 .navbar ul {
     margin-bottom: 16px;
@@ -71,6 +72,7 @@ p {
 
 #gallery img {
     max-height: 500px;
+    height: auto;
     max-width: 100%;
 }
 
